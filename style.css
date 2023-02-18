@@ -1,18 +1,19 @@
 :root{
  --White: hsl(0, 0%, 100%);
---Light :var(--White)gray: hsl(212, 45%, 89%);
+--Light-gray: hsl(212, 45%, 89%);
 --Grayish-blue: hsl(220, 15%, 55%);
 --Dark-blue: hsl(218, 44%, 22%);
 }
 
 body{
+     background-color: var(--light-gray);
+
 
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--Grayish-blue);
 
 
 
